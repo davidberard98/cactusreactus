@@ -55,12 +55,13 @@ const setup_client = (con) => {
 			if(!author) return; */
 			let authorz = msg.cleanContent.split(' ');
 			let author = -1;
-			for(let x of author) {
+			for(let x of authorz) {
 				if(x.length > 1 && x[0] === '@') {
 					author = x.substr(1);
 				}
 			}
 			if(author === -1) return;
+			console.log(author);
 			let removal = msg.content.search('remove');
 			if(removal !== -1) {
 				con.query('DELETE FROM ' + table_name + ' WHERE username=' + con.escape(author) + ';', (err, results, fields) => {

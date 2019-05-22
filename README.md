@@ -1,8 +1,14 @@
 # Cactus Reactus
 
-a stupid discord bot that reacts all messages by a given user with a specified emoji
+a _very_ stupid discord bot that reacts all messages by a given user with a specified emoji
 
-# Env
+# Installation
+
+Type `npm install` to install necessary packages.
+
+# Environment
+
+Setup a mysql database and username for cactus reactus.
 
 Create a .env file with the format seen in env.template
 
