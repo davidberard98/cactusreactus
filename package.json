@@ -1,0 +1,30 @@
+{
+  "name": "cactus-reactus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodejs index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^8.0.0",
+    "mysql": "^2.17.1",
+    "node-emoji": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidberard98/discord-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidberard98/discord-react/issues"
+  },
+  "homepage": "https://github.com/davidberard98/discord-react#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
